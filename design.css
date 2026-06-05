@@ -1,0 +1,49 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.body{
+    margin: 20px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.card{
+    display: flex;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:space-around;
+    padding: 20px;
+    text-align: center;
+    color: #0b132b;
+    background-color: #ade8f4;
+    border-bottom: 5px #081c15 solid ;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: fadeIn 0.8s ease;
+  
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.avatar{
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 100px;
+   
+   
+}
+
+.blue-border{
+  border: 1px dotted blue;
+}
+
